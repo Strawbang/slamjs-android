@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nomEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:text="@string/nom"
+        android:textColor="?attr/actionModeSplitBackground"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nomEvent"
+        android:layout_toLeftOf="@+id/dateEvent"
+        android:text="Date : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dateEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView14"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="@string/date"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/typeEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nomEvent"
+        android:layout_alignStart="@+id/nomEvent"
+        android:layout_below="@+id/nomEvent"
+        android:layout_marginTop="15dp"
+        android:text="@string/type"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de jours : "
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/nombreJoursEvent"
+        android:layout_alignBottom="@+id/nombreJoursEvent"
+        android:layout_toLeftOf="@+id/nombreJoursEvent"
+        android:layout_toStartOf="@+id/nombreJoursEvent" />
+
+    <TextView
+        android:id="@+id/nombreJoursEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/typeEvent"
+        android:layout_alignBottom="@+id/typeEvent"
+        android:layout_alignEnd="@+id/dateEvent"
+        android:layout_alignRight="@+id/dateEvent"
+        android:maxLines="1"
+        android:text="@string/nombreJours"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/typeEvent"
+        android:layout_alignStart="@+id/typeEvent"
+        android:layout_below="@+id/typeEvent"
+        android:layout_marginTop="23dp"
+        android:text="Nom du rôle : "
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/nomRole"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:layout_toRightOf="@+id/textView15"
+        android:text="@string/nom"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de rôle : "
+        android:textColor="@android:color/black"
+        android:layout_alignBaseline="@+id/nbRoles"
+        android:layout_alignBottom="@+id/nbRoles"
+        android:layout_toLeftOf="@+id/nbRoles"
+        android:layout_toStartOf="@+id/nbRoles" />
+
+    <TextView
+        android:id="@+id/nbRoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignEnd="@+id/nombreJoursEvent"
+        android:layout_alignRight="@+id/nombreJoursEvent"
+        android:text="nbRoles"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Etat"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

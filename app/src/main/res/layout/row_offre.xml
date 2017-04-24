@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="9dp">
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dip"
+        android:layout_marginStart="15dip"
+        android:maxLines="1"
+        android:text="@string/nom"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nom"
+        android:layout_alignStart="@+id/nom"
+        android:layout_below="@+id/nom"
+        android:layout_marginTop="5dp"
+        android:text="Nombre de rôles proposés : " />
+
+    <TextView
+        android:id="@+id/nbRoles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:text="@string/nbRoles"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"></TextView>
+
+
+</RelativeLayout>
