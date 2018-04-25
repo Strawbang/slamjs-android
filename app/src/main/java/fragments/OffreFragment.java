@@ -31,7 +31,7 @@ import objects.Offre;
 import repository.EventRepository;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 20/04/2017.
  */
 public class OffreFragment extends Fragment implements AdapterView.OnItemClickListener {
     public  String SERVER_URL = null;

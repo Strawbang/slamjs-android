@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 20/04/2017.
  */
 public class EventRepository extends Repository {
     // Constructeur

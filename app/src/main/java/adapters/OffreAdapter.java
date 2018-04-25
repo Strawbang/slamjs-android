@@ -16,7 +16,7 @@ import java.util.List;
 import objects.Offre;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 22/04/2017.
  */
 public class OffreAdapter extends ArrayAdapter<Offre> {
     private Activity activity;

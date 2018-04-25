@@ -31,7 +31,7 @@ import objects.Event;
 import repository.EventRepository;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 20/04/2017.
  */
 public class EventsFragment extends Fragment implements AdapterView.OnItemClickListener {
     public static String SERVER_URL ;

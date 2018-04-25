@@ -25,8 +25,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        try{
+            super.onCreate(savedInstanceState);
+            setContentView(R.layout.activity_main);
+        }catch (Exception e){
+            System.out.println(e.getStackTrace());
+        }
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -41,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         eventRepo = new EventRepository(this);
         //Innitialise le repository pour enregistrer au seins de l'application l'url du serveur
-        url = "http://192.168.1.138:3000";
+        url = "http://192.168.1.130:3000";
         eventRepo.setUrl(url);
 
         //Innitialise un fragment "Acceuil" qui apparait dès l'ouverture de l'applications

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import com.btssio.slam.slamjs.R;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 20/04/2017.
  */
 public class AccueilFragment extends Fragment {
     public AccueilFragment() {

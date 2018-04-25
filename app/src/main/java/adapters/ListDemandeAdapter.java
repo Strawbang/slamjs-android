@@ -16,7 +16,7 @@ import java.util.List;
 import objects.DemandeFiguration;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 22/04/2017.
  */
 public class ListDemandeAdapter extends ArrayAdapter<DemandeFiguration> {
     private Activity activity;

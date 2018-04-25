@@ -36,7 +36,7 @@ import repository.EventRepository;
 
 import static fragments.EventsFragment.SERVER_URL;
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 20/04/2017.
  */
 public class ListDemandeFragment extends Fragment implements View.OnClickListener, AdapterView.OnItemClickListener {
 

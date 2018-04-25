@@ -16,7 +16,7 @@ import java.util.List;
 import objects.Event;
 
 /**
- * Created by BOUGOUFFA on 24/04/2017.
+ * Created by BOUGOUFFA on 22/04/2017.
  */
 public class EventAdapter extends ArrayAdapter<Event> {
     private Activity activity;
